@@ -12,7 +12,7 @@ if __name__ == '__main__':
                 batch=16,
                 close_mosaic=10,
                 workers=4,
-                device='cpu',
+                device='0',
                 optimizer='SGD', # using SGD
                 # resume='', # last.pt path
                 # amp=False # close amp
